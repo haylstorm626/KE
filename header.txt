@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+		<title>Knight Electrical Contracting, Corp.</title>
+		<link rel="stylesheet" type="text/css" href="css/style_1.1.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="menu.js"></script>
+</head>
+
+<body>
+
+	<div id="headercontainer">
+		<div id="header">
+			
+			<div id="logo">
+				<a href="index.php"><img class="logo" src="img/logo2.png" alt="Knight Electrical" ></a> 
+				
+			</div>
+			
+			<div class="topnav" id="myTopnav">
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
+					<li><a href="careers.php">Careers</a></li>	
+					<li><a href="contact.php">Contact</a></li>		
+				</ul>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<img class="menu" src="img/menu.png">
+				</a>
+			</div>
+			
+			<div id="headercolumn1" >
+				<h3>Knight</h3>
+				<h2>Electrical Contracting Corp.</h2>
+			</div>
+			<div id="headercolumn2">
+				<h5>978-377-5200</h5>
+				<h5 style="font-size:18px">24/7 Emergency Services</h5>
+			</div>
+		
+			
+		</div>
+	</div>
+	
