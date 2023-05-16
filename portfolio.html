@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+		<title>Knight Electrical Contracting, Corp.</title>
+		<link rel="stylesheet" type="text/css" href="css/style_1.1.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="menu.js"></script>
+</head>
+
+<body>
+
+	<div id="headercontainer">
+		<div id="header">
+			
+			<div id="logo">
+				<a href="index.html"><img class="logo" src="img/logo2.png" alt="Knight Electrical" ></a> 
+				
+			</div>
+			
+			<div class="topnav" id="myTopnav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="testimonials.html">Testimonials</a></li>
+					<li><a href="careers.html">Careers</a></li>	
+					<li><a href="contact.html">Contact</a></li>		
+				</ul>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<img class="menu" src="img/menu.png">
+				</a>
+			</div>
+			
+			<div id="headercolumn1" >
+				<h3>Knight</h3>
+				<h2>Electrical Contracting Corp.</h2>
+			</div>
+			<div id="headercolumn2">
+				<h5>978-377-5200</h5>
+				<h5 style="font-size:18px">24/7 Emergency Services</h5>
+			</div>
+		
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<!--end top-->
+	<!-- ?PHP include('header.txt');? -->
+	
+	
+	<div class="blok" id="home2" style="background-image:url('img/img22.JPG');">
+	<h6>Portfolio</h6>
+	</div>
+		
+	<div class="blok" >
+		<div class="columns">
+
+			<!-- 
+
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="DESCRIPTION HERE" src="img/IMAGENAMEHERE.PNG"> 
+			</div>
+
+			-->
+		
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Exam room wired for Cape Ann Animal Hospital as a donation." src="img/img22.JPG"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Lighting Fixture Install" src="img/img18.png"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Lighting Retrofit" src="img/img1.png">
+			</div>
+		
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="New Kitchen" src="img/img2.jpg">
+			</div> 
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Service upgrade" src="img/img3.png"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Lighting Retrofit" src="img/img5.png"> 
+			</div> 
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="New Kitchen" src="img/img6.png">
+			</div>
+		
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Porch Lighting and Fans" src="img/img7.png">
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Panels" src="img/img8.png"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Ductless AC" src="img/img9.png">
+			</div> 
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Boilers" src="img/img10.png">
+			</div>
+		
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="New Kitchen" src="img/img11.jpg">
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="New service for a 6-family house" src="img/img12.jpg"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Fan and Lighting" src="img/img13.jpg"> 
+			</div> 
+			
+		
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Troubleshooting a motor starter and VFD" src="img/img15.jpg">
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Commercial Lighting" src="img/img16.jpg"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Damaged Service" src="img/img17.jpg"> 
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Commercial Garage" src="img/img20.jpg">
+			</div>
+			
+			<div class="column" id="imagecolumn">
+					<img class="zImages" id="zImg" alt="Viessmann Boilers" src="img/img21.jpg"> 
+			</div>
+		
+			
+		</div>
+		<br>
+		<!-- zoom -->
+		<div id="imgZoom" class="zoom">
+		  <span class="close">&times;</span>
+		  <img class="zoomImage" id="img01">
+		  <div id="caption"></div>
+		</div>
+	</div>
+		
+	<script>
+		var zoom = document.getElementById('imgZoom');
+		var images = document.getElementsByClassName('zImages');
+		var zoomImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+
+		for (var i = 0; i < images.length; i++) {
+		  var img = images[i];
+		  img.onclick = function(evt) {
+			zoom.style.display = "block";
+			zoomImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		  }
+		}
+
+		var span = document.getElementsByClassName("close")[0];
+
+		span.onclick = function() {
+		  zoom.style.display = "none";
+		}
+	</script>
+	
+<!-- ?PHP include('footer.txt');? -->
+	<!--start bottom-->
+	
+		
+<div class="footercontainer">
+		<div class="footer" >
+			<div style="float:left">
+					<img src="img/logo2.png" alt="Knight Electrical">
+			</div>
+			<div class="columns">
+				<div class="column">
+					<h4>Knight Electrical</h4>
+					600 Main Street<br>
+					Rowley, MA 01969<br>
+					978-377-5200
+					<a href="mailto:info@knightecc.com">info@knightecc.com</a> 
+					<p>
+					Master Electrician<br>
+					MA Electrical Business License # 8077A1<br>
+					MA License # 22541A<br>
+					MA HIC License # 198948<br>
+					NH License # 14562</p>
+				</div>
+				<div class="column" >
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="testimonials.html">Testimonials</a></li>
+						<li><a href="careers.html">Careers</a></li>	
+						<li><a href="contact.html">Contact</a></li>	
+					</ul><br>
+					<p>Serving the Greater Boston area and New Hampshire</p>
+				</div>
+				<div class="column">
+					<h4>Office Hours:</h4>
+					Monday-Saturday <br>
+					7:00 AM to 5:00 PM<br>
+					(Please call to confirm)<br>
+					<p><b>**24/7 Emergency Services Available**</b></p>
+					<div>
+						<a href="https://www.facebook.com/knightelectricalcontracting/"><img id="social" style="-webkit-filter: invert(1); filter: invert(1);" src="img/fb.png"></a>
+						<a href="https://www.yelp.com/biz/knight-electrical-contracting-haverhill"><img id="social" style="-webkit-filter: invert(1); filter: invert(1);" src="img/yelp.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer2">
+		<p>&copy; Knight Electrical Contracting Corp. 2020</p>
+		</div>
+	</div>
+		
+</body>
+	
+</html>
+	
+	
+	
