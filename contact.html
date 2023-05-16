@@ -122,12 +122,12 @@
 					? -->
 					</b>
 				
-					<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-					  Name: <input type="text" name="name" value="<?php echo $name;?>">
+					<form method="post" action=" ">  <!-- ?php echo htmlspecialchars($_SERVER["PHP_SELF"]);? -->
+					  Name: <input type="text" name="name" value=" "> <!-- ?php echo $name;? -->
 					  <br><br>
-					  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+					  E-mail: <input type="text" name="email" value=" "> <!-- ?php echo $email;? -->
 					  <br><br>
-					  Message: <textarea name="message" rows="5" cols="40"><?php echo $message;?></textarea>
+					  Message: <textarea name="message" rows="5" cols="40"> </textarea>  <!-- php echo $message;? -->
 					  <br>
 					  <input type="submit" name="submit" value="Submit">  
 					</form>
